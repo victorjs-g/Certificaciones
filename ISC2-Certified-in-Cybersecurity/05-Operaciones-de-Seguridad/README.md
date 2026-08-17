@@ -75,7 +75,7 @@ Los logs son esenciales para auditorías e investigaciones forenses, ya que perm
 Los registros pueden contener información sensible, por lo que deben protegerse mediante controles de acceso, cifrado y políticas de retención. Además, las organizaciones deben preservar los logs necesarios para evitar la pérdida de evidencia ante incidentes de seguridad.
 
 **Este es un ejemplo de evento de seguridad de datos.**
-
+![Evento de Seguridad](./images/Evento%20De%20Seguridad.png)
 ### **Mejores prácticas de registro de eventos**
 
 #### **Monitoreo de ingreso**
