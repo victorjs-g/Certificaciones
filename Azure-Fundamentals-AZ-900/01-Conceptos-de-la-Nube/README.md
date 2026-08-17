@@ -85,7 +85,7 @@ Es un modelo donde el proveedor de la nube y el cliente comparten responsabilida
 
 En el siguiente diagrama se visualizará cómo el modelo de responsabilidad compartida en la nube indica quién es responsable de cada elemento, dependiendo del modelo de cloud.
 
-!image.png
+![Responsabilidad por modelo de servicio](Images/Responsabilidad-por-modelo-de-servicio.png)
 
 ## Definición de modelos en la nube
 
@@ -109,7 +109,7 @@ Una nube híbrida es un modelo de computación que combina una nube pública y u
 
 Consiste en utilizar dos o más proveedores de servicios en la nube, por ejemplo, Azure para infraestructura y AWS para alojar determinadas aplicaciones. La organización debe administrar los recursos y la seguridad de cada proveedor.
 
-!679d9e10-991b-44ce-b597-d7cbf0aff518.png
+![Modelo de implementación](Images/Modelo-de-implementacion.png)
 
 #### **Azure Arc (Administrador de cloud)**
 
@@ -167,7 +167,7 @@ La escalabilidad hace referencia a la capacidad de ajustar los recursos para sat
 
 Nota: Otra ventaja de la escalabilidad es que permite evitar pagar por recursos que no son necesarios. Dado que la nube utiliza modelos basados en el consumo, cuando la demanda baja se pueden reducir los recursos y, por tanto, los costos.
 
-!bc89ecc0-9741-4d64-88f0-8d6fcbbff4b5.jpg
+![Escalabilidad](Images/Escalabilidad.jpg)
 
 #### Escalado Vertical (Scale Up/Down)
 
@@ -189,7 +189,7 @@ La confiabilidad y la previsibilidad son dos ventajas de la nube que ayudan a de
 
 #### Confiabilidad
 
-!image.png
+![Confiabilidad](Images/Confiabilidad.png)
 
 La confiabilidad es la capacidad de un sistema para recuperarse de errores y seguir funcionando. También es uno de los pilares del **Microsoft Azure Well-Architected Framework**.
 
@@ -197,7 +197,7 @@ Imagina que una aplicación está desplegada en **dos regiones de Azure**. Todos
 
 #### Previsibilidad
 
-!8082c986-93a8-443f-8da3-721411df9906.jpg
+![Previsibilidad](Images/Previsibilidad.jpg)
 
 La previsibilidad en Azure es la capacidad de anticipar cómo se comportarán los recursos de la nube, tanto en costo como en rendimiento. Esto permite a las organizaciones planificar mejor sus gastos y garantizar que sus aplicaciones tengan los recursos necesarios, sin excederlos ni quedarse cortas.
 
@@ -209,7 +209,7 @@ La previsibilidad en Azure es la capacidad de anticipar cómo se comportarán lo
 
 Independientemente del modelo de nube (IaaS, PaaS, SaaS u On-Premises), la gobernanza y el cumplimiento son partes esenciales de la administración de los recursos.
 
-!image.png
+![Seguridad y gobernanza](Images/Seguridad-Gobernanza.png)
 
 #### Plantilla y estándares
 
@@ -255,7 +255,7 @@ Los proveedores de nube tienen herramientas para proteger los servicios y la inf
 
 Una de las principales ventajas de la nube es la administración. Hay diferentes formas de administrar los recursos y el entorno de nube.
 
-!image.png
+![Gestión Cloud](Images/Gestion-Cloud.png)
 
 La administración propia de la nube trata sobre administrar los recursos en la nube. En la nube, puede hacer lo siguiente:
 
@@ -266,7 +266,7 @@ La administración propia de la nube trata sobre administrar los recursos en la 
 
 #### **Herramientas de administración en la nube**
 
-!management-in-cloud.png
+![Herramientas Cloud](Images/Herramientas-Cloud.png)
 
 Las herramientas de administración en la nube permiten administrar el entorno de nube y los recursos. Puede administrarlos de las siguientes maneras:
 
@@ -277,7 +277,7 @@ Las herramientas de administración en la nube permiten administrar el entorno d
 
 ## **Descripción de las consideraciones de sostenibilidad en la nube**
 
-!image.png
+![Sostenibilidad Cloud](Images/Sostenibilidad-Cloud.png)
 
 La sostenibilidad en Azure consiste, entre otras cosas, en utilizar los recursos de forma eficiente y evitar desperdiciar capacidad de cómputo. Esto puede beneficiar tanto al cliente, al reducir costos, como al medio ambiente, al reducir el consumo innecesario de energía en los centros de datos.
 
