@@ -201,8 +201,8 @@ Los puertos físicos son los puertos de los enrutadores, conmutadores, hubs, com
 
 Un puerto es un identificador lógico dentro de una computadora que permite distinguir qué servicio o aplicación está utilizando una conexión de red.
 
-Diagrama De Red Empresarial vs Red Doméstica
-
+                                  Diagrama De Red Empresarial vs Red Doméstica
+![Red de Casa vs Red Empresarial](./images/Red%20De%20Casa%20vs%20Red%20Empresarial.png)
 Un socket combina elementos como una dirección IP, un puerto y un protocolo de transporte para identificar un extremo de una comunicación.
 
 ### Rangos de puertos
@@ -459,6 +459,7 @@ Cuando hablamos de un centro de datos hay dos opciones: la organización puede c
 La energía alimenta los dispositivos dentro de la red. Debe tenerse en cuenta el mantenimiento y la evaluación constante de la fuente de energía.
 
 Una práctica importante es contar con **redundancia energética**.
+![Redundancia Eléctrica](./images/Redundancia%20Electrica.png)
 
 ### Supresión de incendios
 
