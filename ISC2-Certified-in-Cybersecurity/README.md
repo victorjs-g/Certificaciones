@@ -5,9 +5,10 @@
 La **ISC2 Certified in Cybersecurity (CC)** es una certificación de nivel inicial orientada a los fundamentos de ciberseguridad. Para mí, fue una buena forma de reforzar conceptos que ya había visto durante mis estudios y, al mismo tiempo, medir qué tan bien podía aplicarlos en escenarios prácticos.
 
 ## Resultado
+![](./images/Pass%20CC%20Certification.png)
 
-**Estado:** Aprobado
-**Fecha:** 2 de junio de 2026
+**Estado:** Aprobado  
+**Fecha:** 2 de junio de 2026 
 
 ## Preparación
 
