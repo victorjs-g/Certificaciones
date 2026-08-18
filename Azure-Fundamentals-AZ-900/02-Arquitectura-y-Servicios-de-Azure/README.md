@@ -118,7 +118,7 @@ La infraestructura de administración incluye recursos de Azure, grupos de recur
 
 Un recurso es el bloque de construcción básico de Azure. Todo lo que crees, aprovisiones o implementes es un recurso. Las máquinas virtuales de Azure son un recurso; las redes virtuales (VNet), las bases de datos y los servicios de Azure AI son ejemplos de recursos dentro de Azure.
 
-![Grupos de Recursos](./Images/Grupos-Recursos.png)
+![Grupos de recursos](Images/Grupos-Recursos.jpg)
 
 Los grupos de recursos son agrupaciones de recursos. **Cada recurso debe pertenecer obligatoriamente a un grupo de recursos**, pero un recurso solo puede estar asociado a un grupo. Los grupos de recursos no se pueden anidar (unir) y no se puede cambiar su nombre después de creados.
 
@@ -182,7 +182,7 @@ Los grupos de administración (Management Groups) son un nivel de organización 
 - Los grupos de administración pueden organizarse en una jerarquía de hasta seis niveles.
 - Cada organización (inquilino de Microsoft Entra) tiene un único grupo raíz, desde el cual se pueden aplicar políticas a toda la estructura.
 
-![Jerarquía de Grupos](./Images/Jerarquia-Grupos.jpg)
+![Jerarquía de grupos](Images/Jerarquia-Grupos.png)
 
 # Descripción de los servicios de proceso de Azure
 
