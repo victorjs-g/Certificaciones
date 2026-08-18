@@ -182,7 +182,7 @@ Los grupos de administración (Management Groups) son un nivel de organización 
 - Los grupos de administración pueden organizarse en una jerarquía de hasta seis niveles.
 - Cada organización (inquilino de Microsoft Entra) tiene un único grupo raíz, desde el cual se pueden aplicar políticas a toda la estructura.
 
-![Jerarquía de Grupos](./Images/Jerarquia-Grupos.png)
+![Jerarquía de Grupos](./Images/Jerarquia-Grupos.jpg)
 
 # Descripción de los servicios de proceso de Azure
 
@@ -527,7 +527,7 @@ Si necesitamos hospedar una aplicación en Azure, podríamos pensar inicialmente
 
 Hay otras opciones de hospedaje que puedes usar con Azure, incluido Azure App Service.
 
-![Hospedaje de Aplicaciones](./Images/Hospedejae-Apps.png)
+![Hospedaje de Aplicaciones](./Images/Hospedejae-Apps.jpg)
 
 ### Azure App Service
 
