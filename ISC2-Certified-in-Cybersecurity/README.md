@@ -1,5 +1,3 @@
-
-<<<<<<< HEAD
 ## Sobre la certificación
 
 La **ISC2 Certified in Cybersecurity (CC)** es una certificación de nivel inicial orientada a los fundamentos de ciberseguridad. Para mí, fue una buena forma de reforzar conceptos que ya había visto durante mis estudios y, al mismo tiempo, medir qué tan bien podía aplicarlos en escenarios prácticos.
@@ -42,5 +40,3 @@ He organizado mis apuntes y material de estudio por cada dominio de la certifica
 * [05 - Operaciones de Seguridad](./05-Operaciones-de-Seguridad/)
 
 Si estás preparando la **ISC2 CC**, espero que estos apuntes puedan servirte como material complementario durante tu preparación.
-=======
->>>>>>> aaf6b43 (docs: documentos iniciales agregados)

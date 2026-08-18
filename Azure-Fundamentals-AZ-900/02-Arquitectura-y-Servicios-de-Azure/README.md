@@ -18,7 +18,7 @@ Azure permite innovar, administrar y escalar tus aplicaciones e infraestructura 
 
 Azure proporciona cientos de servicios que te permiten hacer de todo, desde ejecutar aplicaciones existentes en máquinas virtuales hasta explorar nuevos paradigmas de software, como bots inteligentes e inteligencia artificial generativa.
 
-!image.png
+![Servicios de Azure](./Images/Azure-Services.png)
 
 Muchos equipos de TI comienzan su recorrido en la nube moviendo sus aplicaciones web a máquinas virtuales, pero la nube es mucho más que eso.
 
@@ -36,19 +36,15 @@ Nota: Cuenta → Suscripción → Recursos.
 
 ## **Descripción de la infraestructura física de Azure**
 
-!image.png
+![Infraestructura física de Azure](./Images/Infraestructura-fisica-azure.png)
 
 Los componentes principales de la arquitectura de Azure se pueden dividir en dos agrupaciones principales: la infraestructura física y la infraestructura de administración.
 
 Aquí estaremos viendo la parte de infraestructura y aprenderemos cómo Azure organiza sus centros de datos, regiones y zonas de disponibilidad para ofrecer servicios confiables en todo el mundo.
 
-!b4bce68f-b492-4e56-8626-89f15a1a6601.jpg
-
 ### 1. Infraestructura física (Data Center)
 
 La infraestructura física de Azure comienza con los centros de datos. Estos centros de datos son instalaciones con servidores organizados en bastidores, con energía dedicada, refrigeración e infraestructura de red, similar a un centro de datos local, pero a una escala mucho mayor. Este es simplemente el lugar donde viven los recursos.
-
-!b4bce68f-b492-4e56-8626-89f15a1a6601.jpg
 
 ### Geografía
 
@@ -122,7 +118,7 @@ La infraestructura de administración incluye recursos de Azure, grupos de recur
 
 Un recurso es el bloque de construcción básico de Azure. Todo lo que crees, aprovisiones o implementes es un recurso. Las máquinas virtuales de Azure son un recurso; las redes virtuales (VNet), las bases de datos y los servicios de Azure AI son ejemplos de recursos dentro de Azure.
 
-!19824fbf-f9d5-4680-8306-167740e2cc42.jpg
+![Grupos de recursos](Images/Grupos-Recursos.jpg)
 
 Los grupos de recursos son agrupaciones de recursos. **Cada recurso debe pertenecer obligatoriamente a un grupo de recursos**, pero un recurso solo puede estar asociado a un grupo. Los grupos de recursos no se pueden anidar (unir) y no se puede cambiar su nombre después de creados.
 
@@ -186,7 +182,7 @@ Los grupos de administración (Management Groups) son un nivel de organización 
 - Los grupos de administración pueden organizarse en una jerarquía de hasta seis niveles.
 - Cada organización (inquilino de Microsoft Entra) tiene un único grupo raíz, desde el cual se pueden aplicar políticas a toda la estructura.
 
-!image.png
+![Jerarquía de grupos](Images/Jerarquia-Grupos.png)
 
 # Descripción de los servicios de proceso de Azure
 
@@ -228,7 +224,7 @@ Al aprovisionar una máquina virtual, eliges recursos como:
 
 Los tamaños de máquina virtual de Azure se agrupan en familias, con el fin de que podamos elegir rápidamente el tamaño ideal según las necesidades y cargas de trabajo.
 
-!image.png
+![Familias y Tamaños de VM](./Images/Familias-Tamaño-VM.png)
 
 | Familia | Enfoque típico | Ejemplo de uso |
 | --- | --- | --- |
@@ -242,7 +238,7 @@ Los tamaños de máquina virtual de Azure se agrupan en familias, con el fin de 
 
 La ventaja de las máquinas virtuales (VM) es que se pueden personalizar en función de tus necesidades. Se puede ajustar la RAM, el disco, la red, la vCPU, la generación y mucho más.
 
-!image.png
+![Opciones de VM](./Images/VM-Options.png)
 
 Algunos de los ajustes que puedes realizar son:
 
@@ -352,7 +348,7 @@ Azure Virtual Desktop se utiliza cuando necesitas que los usuarios trabajen en u
 - Aplicaciones centralizadas (las aplicaciones se ejecutan en Azure, no en el equipo del usuario)
 - Mayor seguridad (los datos permanecen en Azure y el acceso puede protegerse con Microsoft Entra ID y autenticación multifactor (MFA))
 
-!image.png
+![Azure Virtual Desktop](./Images/Azure-Virtual-Desktop.png)
 
 ## Descripción de contenedores de Azure
 
@@ -362,7 +358,7 @@ Las máquinas virtuales reducen los costos en comparación con el hardware físi
 
 Un contenedor es un entorno aislado donde se almacenan aplicaciones junto con sus dependencias y bibliotecas. Este entorno se puede ejecutar tanto en local como en la nube. A este tipo de virtualización se le conoce como virtualización a nivel de proceso.
 
-!image.png
+![Contenedores en Azure](./Images/Containers-Azure.png)
 
 Nota: La ventaja de usar contenedores en lugar de máquinas virtuales tradicionales es que ahorras muchos recursos, por eso, cuando sea posible, es preferible desplegar las aplicaciones en contenedores.
 
@@ -523,7 +519,7 @@ Esto:
 
 **Palabra clave:** **procesamiento en el borde (Edge Computing).**
 
-!image.png
+![Hub IoT](./Images/Hub-IOT.png)
 
 ## Descripción de las opciones de hospedaje de aplicaciones
 
@@ -531,7 +527,7 @@ Si necesitamos hospedar una aplicación en Azure, podríamos pensar inicialmente
 
 Hay otras opciones de hospedaje que puedes usar con Azure, incluido Azure App Service.
 
-!c4d7fbae-0b19-488a-9a7b-f23c82e34f6e.jpg
+![Hospedaje de Aplicaciones](./Images/Hospedejae-Apps.jpg)
 
 ### Azure App Service
 
@@ -724,7 +720,7 @@ Una red privada virtual (VPN) usa un túnel cifrado sobre otra red. Normalmente,
 
 Una puerta de enlace de VPN es un tipo de puerta de enlace de red virtual. Las instancias de Azure VPN Gateway se implementan en una subred dedicada de la red virtual y permiten la conectividad siguiente:
 
-!image.png
+![Gateway VPN](./Images/Gateway-VPN.png)
 
 ### Tipos de VPN Gateway en Azure
 
@@ -776,7 +772,7 @@ En las regiones que admiten zonas de disponibilidad, se pueden implementar puert
 
 Azure ExpressRoute te permite ampliar las redes locales a la nube de Microsoft a través de una conexión privada, con la ayuda de un proveedor de conectividad. Esta conexión se denomina circuito ExpressRoute. Con ExpressRoute, puedes establecer conexiones a servicios en la nube de Microsoft, como Microsoft Azure y Microsoft 365. ExpressRoute permite conectar oficinas, centros de datos u otras instalaciones a la nube de Microsoft. Cada ubicación tendría su propio circuito ExpressRoute.
 
-!image.png
+![Azure ExpressRoute](./Images/Azure-ExpressRoute.png)
 
 Las conexiones de ExpressRoute no pasan por Internet pública. Dado que omiten la red pública de Internet, las conexiones de ExpressRoute ofrecen más confiabilidad, velocidades más rápidas, latencias coherentes y mayor seguridad que las conexiones a Internet típicas.
 
@@ -848,7 +844,7 @@ Una cuenta de almacenamiento proporciona un espacio de nombres único para los d
 - Duraderos
 - Escalables de forma masiva
 
-!image.png
+![Cuentas de Almacenamiento](./Images/Cuenta-Azure-Storage.png)
 
 Azure Blob Storage: proporciona almacenamiento de datos no estructurados, es decir, archivos pesados y grandes.
 
@@ -896,7 +892,7 @@ Si tu Storage Account se llama `empresa01`:
 
 Nota: el nombre de la cuenta identifica tu almacenamiento y el subdominio identifica qué servicio de Azure Storage estamos utilizando.
 
-!image.png
+![Conexión Cuentas Storage](./Images/Conexion-Cuentas-Storage.png)
 
 ## Descripción de la redundancia de almacenamiento de Azure
 
@@ -1163,7 +1159,7 @@ Outlook permite el acceso
 - **Administración de aplicaciones**: administra aplicaciones locales y en la nube a través de características como Application Proxy, integración de aplicaciones SaaS y el portal Mis aplicaciones.
 - **Administración de dispositivos**: admite el registro y la administración de dispositivos a través de herramientas como Microsoft Intune. Habilita las directivas de acceso condicional basadas en dispositivos que restringen el acceso a dispositivos conocidos.
 
-!image.png
+![Microsoft Entra ID](./Images/Microsoft-EntraID.png)
 
 ## ¿Puedo conectar mi Active Directory local con mi Microsoft Entra ID? Microsoft Entra Connect
 
@@ -1265,7 +1261,7 @@ Nota: Usuario miembro (Member) → pertenece a la organización. / Usuario invit
 - **Microsoft Entra B2B Direct Connect:** permite establecer una relación de confianza entre dos organizaciones de Microsoft Entra ID para colaborar directamente sin crear usuarios invitados en el directorio. Cada organización mantiene el control y administración de sus propios usuarios, mientras los usuarios externos pueden acceder a recursos compartidos (como canales compartidos de Microsoft Teams) usando su propia identidad.
 - **Id. externo de Microsoft Entra para clientes:** Microsoft Entra External ID para clientes permite a las organizaciones administrar la identidad y el acceso de clientes que utilizan sus aplicaciones SaaS o aplicaciones personalizadas, sin convertirlos en usuarios internos de la organización.
 
-!image.png
+![External ID](./Images/External-ID.png)
 
 ## **Gestionar el acceso de invitados a lo largo del tiempo**
 
@@ -1292,7 +1288,7 @@ Es posible que a un usuario no se le pida un segundo factor de autenticación si
 
 Nota: durante el inicio de sesión, el acceso condicional recopila señales del usuario, toma decisiones basadas en esas señales y, después, aplica esa decisión para permitir o denegar la solicitud de acceso, o bien exigir una respuesta de autenticación multifactor.
 
-!image.png
+![Acceso Condicional](./Images/Acceso-Condicional.png)
 
 ## **¿Cuándo se puede usar el acceso condicional?**
 
@@ -1326,7 +1322,7 @@ Cuando se asignan usuarios o grupos a uno o varios roles, estos reciben todos lo
 
 El ámbito define el nivel de recursos donde se aplican los permisos asignados a una identidad. Los permisos pueden aplicarse desde una suscripción completa hasta un recurso específico, controlando dónde un usuario o grupo puede realizar acciones.
 
-!image.png
+![Ámbitos y RBAC en Azure](./Images/Niveles-Alcance-Azure.png)
 
 Los ámbitos pueden ser lo siguiente:
 
@@ -1370,7 +1366,7 @@ El objetivo de la defensa en profundidad es proteger la información y evitar qu
 
 La defensa en profundidad es un enfoque de seguridad que utiliza múltiples capas de protección independientes para proteger los datos y recursos. Si una capa falla, las demás continúan reduciendo la posibilidad de acceso no autorizado o daño.
 
-!image.png
+![Niveles de Capas](./Images/Niveles-Capas.png)
 
 Niveles de capas de seguridad:
 
@@ -1421,7 +1417,7 @@ Azure Key Vault es un servicio para almacenar y controlar de forma segura el acc
 
 El uso de Key Vault ayuda a centralizar la administración de secretos y claves en lugar de almacenar valores confidenciales directamente en archivos de configuración o código de aplicación.
 
-!image.png
+![Azure Key Vault](./Images/Azure-Key-Vault.png)
 
 #### **¿Por qué es importante la administración de claves?**
 
