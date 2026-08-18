@@ -14,7 +14,7 @@ El objetivo es documentar los conceptos aprendidos y utilizarlos como material d
 
 Apuntes personales sobre los principales temas de la certificación:
 
-- [APUNTE-CSEDP](./APUNTE-CSEDP/)
+- [Documentación CSEDP](./Apuntes-CSEDP/)
 
 ### Prácticas
 
