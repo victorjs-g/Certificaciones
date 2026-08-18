@@ -40,4 +40,3 @@ He organizado mis apuntes y material de estudio por cada dominio de la certifica
 * [05 - Operaciones de Seguridad](./05-Operaciones-de-Seguridad/)
 
 Si estás preparando la **ISC2 CC**, espero que estos apuntes puedan servirte como material complementario durante tu preparación.
-=======
