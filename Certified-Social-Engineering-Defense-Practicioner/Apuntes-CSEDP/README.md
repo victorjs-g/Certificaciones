@@ -113,7 +113,7 @@ Título del correo. Se usa para llamar atención o generar urgencia.
 - **Date (Fecha)**
 Fecha y hora de envío. Puede ayudar a detectar inconsistencias.
 
-!image.png
+![Part Mail](./Images/Part_Mail.png)
 
 ## Análisis de phishing (headers)
 
@@ -133,7 +133,7 @@ Herramientas:
 - Ctrl + U (código fuente)
 - Buscar con Ctrl + F
 
-!image.png
+![Visualización del correo](./Images/Visualización_del_correo.png)
 
 Permite analizar:
 
