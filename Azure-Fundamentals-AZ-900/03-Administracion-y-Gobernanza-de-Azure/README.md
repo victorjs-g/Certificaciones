@@ -17,7 +17,7 @@ Muchos factores afectan cuánto paga. Algunos de los factores que afectan al cos
 - Tipo de suscripción
 - Azure Marketplace
 
-!image.png
+![Factores de costo](./Images/Factores-Costo.png)
 
 ## **Tipo de recurso**
 
@@ -335,7 +335,7 @@ La gobernanza unificada de datos de Microsoft Purview ayuda a su equipo a:
 
 Azure Policy es un servicio que permite crear y aplicar reglas para controlar, auditar y mantener la configuración de los recursos de Azure, asegurando que cumplan con los estándares y requisitos definidos por la organización.
 
-!image.png
+![Azure Policy](./Images/Azure-Policy.png)
 
 ### ¿Cómo se definen directivas en Azure Policy?
 
@@ -412,7 +412,7 @@ Aun cuando haya directivas de control de acceso basado en roles de Azure (RBAC d
 
 Los bloqueos de recursos se heredan, lo que significa que si coloca un bloqueo de recursos en un grupo de recursos, también se aplicará el bloqueo a todos los recursos dentro del grupo.
 
-!image.png
+![Bloqueo de recursos](./Images/Block-Recursos.png)
 
 ## **Tipos de bloqueos de recursos**
 
@@ -437,7 +437,7 @@ El Portal de confianza de servicios de Microsoft es un portal que proporciona co
 
 Nota: Para acceder a algunos de los recursos en el Portal de confianza de servicios, debe iniciar sesión como usuario autenticado con su cuenta de servicios en la nube de Microsoft (Cuenta profesional o educativa de Microsoft Entra). Deberá revisar y aceptar el acuerdo de no divulgación de Microsoft para acceder a los materiales de cumplimiento.
 
-!service-trust-portal.png
+![Service Trust Portal](./Images/Service-Trust-Portal.png)
 
 - **El Portal de confianza** de servicios proporciona un hipervínculo de acceso rápido para volver a la página principal del Portal de confianza de servicios.
 - **Mi biblioteca** le permite guardar (o anclar) documentos para acceder rápidamente a ellos en la página Mi biblioteca. También puede establecer una configuración para recibir notificaciones cuando se actualicen los documentos en Mi biblioteca.
@@ -746,7 +746,7 @@ Las recomendaciones se dividen en cinco categorías:
 - **La excelencia operativa** sugiere mejoras de flujo de trabajo e implementación.
 - **Cost** encuentra formas de reducir el gasto en Azure.
 
-!azure-advisor-dashboard.png
+![Azure Advisor](./Images/Advisor.png)
 
 ## **Descripción de Azure Service Health**
 
@@ -754,7 +754,7 @@ Azure Service Health le ayuda a mantenerse informado sobre el estado de Azure y 
 
 ## **Tres vistas de salud**
 
-!image.png
+![Azure Service Health](./Images/Azure-Health.png)
 
 - **Estado de Azure:**  proporciona una imagen **global** del estado de Azure en todos los servicios y regiones. Compruebe esta página cuando escuche una interrupción generalizada y quiera saber si afecta a Azure.
 - **Service Health:** se centra en los servicios y regiones de Azure que realmente usas. Dado que ha iniciado sesión, Service Health conoce los servicios que son importantes para usted y muestra interrupciones, mantenimiento programado y avisos de estado relevantes para su entorno. Puede configurar alertas para que se le notifique automáticamente.
@@ -778,7 +778,7 @@ Log Analytics es la herramienta en el portal de Azure donde se escriben y ejecut
 
 Las alertas le notifican cuando Azure Monitor detecta que se ha cumplido una condición definida. Se crea una regla de alerta que especifica la condición y un grupo de acciones que controla quién recibe una notificación y qué ocurre a continuación.
 
-!azure-monitor-alerts.png
+![Alertas de Azure Monitor](./Images/Alerta-Monitor.png)
 
 Las alertas pueden basarse en métricas o en registros. Por ejemplo, una alerta de métrica puede enviar un correo electrónico cuando la CPU de una máquina virtual permanece por encima de 80%.
 
