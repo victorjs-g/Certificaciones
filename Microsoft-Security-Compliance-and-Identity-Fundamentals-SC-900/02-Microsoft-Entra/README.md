@@ -73,7 +73,7 @@ Los administradores configuran y gestionan todos los productos de Microsoft Entr
 
 Microsoft Entra ID es el servicio de administración de identidades y acceso basado en la nube de Microsoft. Las organizaciones lo utilizan para permitir que sus empleados, invitados, cargas de trabajo y agentes de IA inicien sesión y accedan a los recursos que necesitan:
 
-!entra-id-general-diagram-v3.png
+![Conceptos de Entra ID](Images/Conceptos-EntraID.png)
 
 - **Recursos internos:** Aplicaciones de la red corporativa y la intranet, junto con las aplicaciones en la nube desarrolladas por la propia organización.
 - **Servicios externos:** Microsoft 365, Azure Portal y cualquier aplicación SaaS que utilice la organización.
@@ -223,7 +223,7 @@ La autenticación es el proceso de comprobar la identidad de una persona o servi
 
 Son el método de autenticación más común, pero presentan riesgos significativos cuando se usan como único factor: si son fáciles de adivinar facilitan el acceso no autorizado, y si son demasiado complejas pueden afectar la productividad del usuario. Deben complementarse o reemplazarse con métodos más seguros.
 
-!image.png
+![Contraseñas](Images/Contraseñas.png)
 
 ### Autenticación basada en telefonía
 
@@ -239,7 +239,7 @@ OATH (*Open Authentication*) es un estándar abierto que especifica cómo se gen
 - **Tokens OATH de software:** Aplicaciones (como Microsoft Authenticator) que generan códigos OTP que cambian periódicamente.
 - **Tokens OATH de hardware:** Dispositivos físicos pequeños (tipo llavero o fob) que muestran un código numérico que se actualiza cada 30 o 60 segundos.
 
-!image.png
+![Token de Hardware](Images/Token-Hardware.png)
 
 ### Otros métodos de autenticación
 
@@ -271,7 +271,7 @@ Aplicación de autenticación para dispositivos iOS y Android que admite:
 - **Notificación push con coincidencia de números (*Number Matching*):** Para evitar la fatiga por MFA, el usuario debe escribir en la aplicación el número que aparece en la pantalla de inicio de sesión.
 - **Códigos de verificación OATH:** Generación local de códigos OTP de tiempo limitado.
 
-!6dbf987c-22c3-4724-887f-ee7c8170f0e1.jpg
+![Passwordless](Images/Passwordless.png)
 
 #### Autenticación basada en certificados (CBA)
 
@@ -644,7 +644,7 @@ Automatiza el ciclo de vida del acceso a recursos a gran escala mediante la gest
 
 Un paquete de acceso es un contenedor que agrupa todos los recursos (grupos de seguridad, grupos de Microsoft 365, aplicaciones empresariales y sitios de SharePoint) que un usuario necesita para trabajar en un proyecto o función específica, junto con las políticas de solicitud y aprobación.
 
-!image.png
+![Access Packages](Images/Access-Packages.png)
 
 ### Capacidades clave
 
