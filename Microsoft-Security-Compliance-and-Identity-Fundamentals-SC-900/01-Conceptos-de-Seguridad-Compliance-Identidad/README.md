@@ -15,7 +15,7 @@ Cuando se usan servicios en la nube, parte de las responsabilidades de seguridad
 - **Plataforma como servicio (PaaS):** El proveedor administra la infraestructura física, el hardware, el sistema operativo y la plataforma subyacente. El cliente se encarga de las aplicaciones, los datos y la configuración de seguridad de acceso, controlando quién puede utilizar la aplicación y acceder a la información.
 - **Software como servicio (SaaS):** El proveedor de nube administra toda la aplicación y su infraestructura subyacente. El cliente es responsable de la gestión de identidades y accesos, el control del uso del servicio, la gobernanza de sus datos y las configuraciones a nivel de inquilino (tenant).
 
-!image.png
+![Modelo de responsabilidad compartida](Images/Modelo-de-responsabilidad-compartida.png)
 
 #### Responsabilidades que siempre conserva el cliente
 
@@ -84,7 +84,7 @@ La defensa en profundidad es una estrategia que utiliza un enfoque por capas par
 - **Seguridad de las aplicaciones:** Garantiza que el software se diseñe, desarrolle e implemente de forma segura. Contempla prácticas de desarrollo seguro, validación y sanitización de entradas para prevenir vulnerabilidades comunes (como inyección SQL o Cross-Site Scripting / XSS), además de controles de autenticación y autorización en la propia aplicación.
 - **Seguridad de los datos:** Es la capa más interna y crítica, enfocada en proteger la información en sí misma. Incluye controles de acceso estrictos, cifrado de datos y clasificación de información para aplicar las protecciones adecuadas según su sensibilidad.
 
-!image.png
+![Defensa en profundidad](Images/Capas-de-defensa-en-profundidad.png)
 
 #### Importancia de la defensa en capas
 
@@ -94,7 +94,7 @@ La defensa en profundidad evita puntos únicos de fallo. Si un control se ve com
 
 Las capas de defensa en profundidad convergen en los tres objetivos fundamentales de la seguridad de la información:
 
-!image.png
+![CIA](Images/CIA.png)
 
 #### Confidencialidad
 
@@ -151,7 +151,7 @@ Zero Trust asume que ninguna red, dispositivo, usuario o aplicación debe consid
 > **Evaluación de madurez:** Los 7 pilares permiten medir la madurez de la estrategia Zero Trust en una organización: a mayor cobertura, integración e interoperabilidad automatizada entre los pilares, mayor es el nivel de madurez y resiliencia de la organización.
 > 
 
-!image.png
+![Zero Trust](Images/Zero-Trust.png)
 
 ### Descripción de cifrado y funciones hash
 
@@ -334,7 +334,7 @@ La **identidad** se convierte en el nuevo límite de control principal: la segur
 - **Identidades de carga de trabajo (*Workload Identities*):** Software, servicios, aplicaciones, procesos desatendidos o contenedores que requieren autenticarse para interactuar con bases de datos y APIs sin intervención humana directa.
 - **Identidades de agentes (*Agent Identities*):** Agentes de IA o procesos autónomos que ejecutan tareas, acceden a recursos o interactúan con otros sistemas en representación de usuarios o servicios.
 
-!3-identity-new-security-perimeter.png
+![Tipos de identidades](Images/Tipos-de-identidades.png)
 
 #### Cuatro pilares de una infraestructura de identidad
 
@@ -414,5 +414,3 @@ La federación es un mecanismo que establece una relación de confianza entre do
 3. **Integración con identidad local (mediante AD FS o federación en la nube):**
     - Organizaciones con AD DS local configuran servicios de federación (como Active Directory Federation Services - AD FS o federación directa con Microsoft Entra ID).
     - El usuario se valida contra su directorio local y el servicio de federación genera los tokens necesarios para consumir aplicaciones en la nube de forma transparente.
-
-Capítulo 2: Introducción a Microsoft Entra 
