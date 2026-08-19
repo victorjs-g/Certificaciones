@@ -59,7 +59,7 @@ Security Copilot permite a los analistas de seguridad procesar señales y respon
 
 Cuando un usuario envía un *prompt*, el sistema ejecuta el siguiente flujo interno:
 
-!image.png
+![Flujo de procesamiento de IA](Images/Flujo-procesamiento-IA.png)
 
 1. **Usuario envía la solicitud:** Escribe la petición en lenguaje natural (ej. *«Investiga este incidente y dime cómo solucionarlo»*).
 2. **Orquestador:** Analiza la solicitud, comprende la intención y genera un plan determinando qué capacidades y complementos debe invocar.
@@ -228,7 +228,7 @@ Las reglas se evalúan en orden secuencial según su **prioridad** (un número m
 - **Intervalo de puertos:** Puertos individuales o rangos específicos.
 - **Acción:** Permitir (*Allow*) o Denegar (*Deny*).
 
-!network-security-group-rules-inline.png
+![Grupos de Seguridad](Images/Grupos-Seguridad.png)
 
 > **Reglas predeterminadas:** Todo NSG incluye reglas por defecto con prioridades altas (números 65000 a 65500) que permiten la comunicación dentro de la VNet y la salida a Internet, pero bloquean todo el tráfico entrante no explícito. Estas reglas no se pueden borrar, pero pueden anularse creando reglas con prioridad más baja (números menores).
 > 
@@ -253,7 +253,7 @@ Servicio PaaS administrado que proporciona conectividad remota segura y directa 
 [Usuario] ──(HTTPS/TLS por puerto 443)──> [Azure Portal / Bastion] ──(RDP/SSH privado)──> [Máquina Virtual]
 ```
 
-!image.png
+![Azure Bastion](Images/Azure-Bastion.png)
 
 #### Ventajas clave
 
@@ -471,5 +471,3 @@ Consola web unificada (`security.microsoft.com`) donde los equipos de seguridad 
 | **Defender Vulnerability Management** | Vulnerabilidades | **Priorizar riesgo** |
 | **Defender Threat Intelligence** | Inteligencia sobre amenazas | **IOC / CVE** |
 | **Microsoft Defender portal** | Administración e investigación centralizada | **Portal unificado** |
-
-Capítulo 4: Microsoft Service Trust Portal, privacidad y soluciones de Microsoft Purview
