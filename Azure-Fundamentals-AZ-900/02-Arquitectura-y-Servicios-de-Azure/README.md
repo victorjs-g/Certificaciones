@@ -158,18 +158,23 @@ Control de acceso: permite definir quién puede acceder o administrar los recurs
 
 #### Esquema
 
+```text
 Cuenta de Azure
-│
-▼
-Suscripción
-(Administración + Facturación + Control de acceso)
-│
-▼
+       │
+       ▼
+   Suscripción
+       │
+       ├── Administración
+       ├── Facturación
+       └── Control de acceso
+       │
+       ▼
 Grupos de recursos
-│
-▼
+       │
+       ▼
 Recursos de Azure
 (VM, Storage, SQL, Redes, etc.)
+```
 
 ### **Grupos de administración de Azure**
 
