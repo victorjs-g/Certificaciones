@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020d08,100:064e3b&height=220&section=header&text=Certificaciones&fontColor=ffffff&fontSize=50&fontAlignY=35&desc=Learning%20%7C%20Certifications%20%7C%20Documentation&descAlignY=58&descSize=20" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=9b9b9b&center=true&vCenter=true&width=600&lines=Continuous+Learning;Documenting."alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=9b9b9b&center=true&vCenter=true&width=600&lines=Continuous+Learning;Documenting." alt="Typing SVG" />
 </a>
 
 </div>
@@ -12,89 +12,43 @@
 
 ## Sobre este repositorio
 
-Repositorio personal dedicado a documentar mi proceso de formación y las certificaciones que voy completando a lo largo de mi trayectoria en **Tecnologías de la Información y Ciberseguridad**.
+Repositorio personal dedicado a documentar mi formación y las certificaciones que voy completando en **Tecnologías de la Información y Ciberseguridad**.
 
-Aquí organizo apuntes, recursos, prácticas, laboratorios, experiencias de examen y documentación relacionada con cada certificación.
+Cada certificación cuenta con su propia documentación, incluyendo **apuntes, conceptos, recursos, prácticas, laboratorios, evidencias y experiencia de preparación**.
 
-La idea es mantener un registro estructurado del proceso: **estudiar → practicar → certificar → documentar**.
-
----
-
-## Contenido
-
-| Sección             | Descripción                                                  |
-| ------------------- | ------------------------------------------------------------ |
-| **Certificaciones** | Documentación de las certificaciones obtenidas o en progreso |
-| **Apuntes**         | Notas y conceptos relevantes durante el estudio              |
-| **Recursos**        | Material utilizado durante la preparación                    |
-| **Prácticas**       | Ejercicios y laboratorios relacionados                       |
-| **Experiencia**     | Preparación, examen y resultados                             |
-| **Documentación**   | Material complementario y evidencias                         |
+> **Estudiar → Practicar → Certificar → Documentar**
 
 ---
 
 ## Certificaciones
 
-Actualmente, el repositorio contiene documentación de diferentes áreas relacionadas con:
+### Completadas
 
-<div align="center">
-
-![Cybersecurity](https://img.shields.io/badge/Cybersecurity-020d08?style=for-the-badge\&logo=hackthebox\&logoColor=white)
-![Cloud](https://img.shields.io/badge/Cloud-064e3b?style=for-the-badge\&logo=microsoftazure\&logoColor=white)
-![Networking](https://img.shields.io/badge/Networking-0f5132?style=for-the-badge\&logo=cisco\&logoColor=white)
-![Information Security](https://img.shields.io/badge/Information%20Security-14532d?style=for-the-badge\&logo=shield\&logoColor=white)
-
-</div>
+| Certificación                                                          | Área                                    | Documentación                                                                          |
+| ---------------------------------------------------------------------- | --------------------------------------- | -------------------------------------------------------------------------------------- |
+| **Azure Fundamentals — AZ-900**                                        | Cloud / Azure                           | [Ver certificación](./Azure-Fundamentals-AZ-900/)                                      |
+| **Microsoft Security, Compliance, and Identity Fundamentals — SC-900** | Security / Identity / Compliance        | [Ver certificación](./Microsoft-Security-Compliance-and-Identity-Fundamentals-SC-900/) |
+| **ISC2 Certified in Cybersecurity — CC**                               | Cybersecurity                           | [Ver certificación](./ISC2-Certified-in-Cybersecurity/)                                |
+| **Certified Social Engineering Defense Practitioner — CSEDP**          | Social Engineering / Security Awareness | [Ver certificación](./Certified-Social-Engineering-Defense-Practicioner/)              |
 
 ---
 
-## Estructura
+## ¿Qué encontrarás?
 
-```text
-Certificaciones/
-│
-├── README.md
-│
-├── Certificacion-1/
-│   ├── README.md
-│   ├── images/
-│   └── ...
-│
-├── Certificacion-2/
-│   ├── README.md
-│   ├── images/
-│   └── ...
-│
-└── ...
-```
+Cada certificación está organizada de acuerdo con su contenido y proceso de preparación.
 
-Cada certificación cuenta con su propia carpeta para mantener separada su documentación y facilitar la navegación.
+* **Apuntes:** conceptos y temas estudiados.
+* **Recursos:** material utilizado durante la preparación.
+* **Prácticas:** ejercicios y actividades relacionadas.
+* **Laboratorios:** escenarios prácticos cuando corresponde.
+* **Evidencias:** capturas y material de apoyo.
+* **Experiencia:** preparación y experiencia durante la certificación.
+
+La estructura puede variar según la certificación para mantener únicamente la documentación que resulte relevante.
 
 ---
 
-## Filosofía
-
-> **Study. Practice. Certify. Document.**
-
-Las certificaciones no representan únicamente un resultado de examen. Este repositorio busca conservar también el proceso de aprendizaje detrás de cada una.
-
-Por eso, la documentación puede incluir desde conceptos y apuntes hasta laboratorios, recursos utilizados y experiencias durante la preparación.
-
----
-
-## Progreso
-
-<div align="center">
-
-![Certifications](https://img.shields.io/badge/Certifications-In%20Progress-064e3b?style=for-the-badge)
-![Learning](https://img.shields.io/badge/Learning-Continuous-14532d?style=for-the-badge)
-![Documentation](https://img.shields.io/badge/Documentation-Active-020d08?style=for-the-badge)
-
-</div>
-
----
-
-## Tecnologías y áreas
+## Tecnologías
 
 <div align="center">
 
@@ -119,8 +73,49 @@ Por eso, la documentación puede incluir desde conceptos y apuntes hasta laborat
 
 ---
 
+## Estructura
+
+```text
+Certificaciones/
+│
+├── README.md
+│
+├── Azure-Fundamentals-AZ-900/
+│   ├── README.md
+│   ├── 01-Conceptos-de-la-Nube/
+│   ├── 02-Arquitectura-y-Servicios-de-Azure/
+│   ├── 03-Administracion-y-Gobernanza-de-Azure/
+│   └── Images/
+│
+├── Microsoft-Security-Compliance-and-Identity-Fundamentals-SC-900/
+│   ├── README.md
+│   ├── 01-Conceptos-de-Seguridad-Compliance-Identidad/
+│   ├── 02-Microsoft-Entra/
+│   ├── 03-Soluciones-de-Seguridad-de-Microsoft/
+│   ├── 04-Soluciones-de-Compliance-de-Microsoft/
+│   └── Images/
+│
+├── ISC2-Certified-in-Cybersecurity/
+│   ├── README.md
+│   ├── 01-Principios-de-Seguridad/
+│   ├── 02-Continuidad-del-Negocio-Recuperacion-ante-Desastres-y-Respuesta-a-Incidentes/
+│   ├── 03-Controles-de-Acceso/
+│   ├── 04-Seguridad-de-Redes/
+│   ├── 05-Operaciones-de-Seguridad/
+│   └── images/
+│
+└── Certified-Social-Engineering-Defense-Practicioner/
+    ├── README.md
+    ├── Apuntes-CSEDP/
+    ├── Mini-CTF-Phishing-Email-Analysis/
+    └── Images/
+```
+--- 
 ## Objetivo
 
-Continuar ampliando este repositorio conforme avance mi formación profesional, incorporando nuevas certificaciones y documentación relacionada con **Ciberseguridad, Seguridad de la Información, GRC, Cloud Security, Redes y Seguridad Operacional**.
+<div align="center">
 
----
+![Learning](https://img.shields.io/badge/Learning-Continuous-14532d?style=for-the-badge)
+![Documentation](https://img.shields.io/badge/Documentation-Active-020d08?style=for-the-badge)
+
+</div>
