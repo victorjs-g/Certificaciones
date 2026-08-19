@@ -6,7 +6,7 @@
 
 El **Service Trust Portal (STP)** es el portal público de Microsoft que proporciona acceso directo a información de confianza, transparencia y cumplimiento normativo sobre los servicios en la nube de Microsoft (Azure, Microsoft 365, Dynamics 365).
 
-*(Inserta aquí tu imagen o captura del Service Trust Portal)*
+![Sensitivity Labels](Images/Sensitivity-Labels.png)
 
 #### Principales recursos disponibles en el STP:
 
@@ -194,7 +194,7 @@ Ayudan a las organizaciones a cumplir con marcos legales, regulaciones de la ind
 
 Herramienta de evaluación de riesgos de extremo a extremo que ayuda a las organizaciones a medir su postura de cumplimiento normativo y simplificar los procesos de auditoría.
 
-!images.png
+![Compliance Manager](Images/Compliance-Manager.png)
 
 #### Puntuación de cumplimiento (Compliance Score)
 
@@ -294,7 +294,7 @@ Es el motor base de metadatos que escanea, clasifica e indexa los activos de dat
 - **Clasificación y etiquetado automático:** Identifica tipos de datos sensibles (SITs) y aplica etiquetas de clasificación directamente sobre los metadatos de los esquemas de tablas y archivos.
 - **Grafo de linaje de datos:** Mapea visualmente el flujo de los datos desde su origen en una base de datos transaccional, pasando por procesos ETL/ELT (como Azure Data Factory), hasta los paneles finales de visualización.
 
-!power-bi-lineage-subartifacts.png
+![Data Map](Images/Data-Map.png)
 
 ### Catálogo unificado de Microsoft Purview (Unified Catalog)
 
